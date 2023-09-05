@@ -14,5 +14,7 @@ public interface FileMapper {
 	List<FileResponse> selectAllFiles();
 	
 	int savFile(@Param("request") FileRequest request);
+	
+	String selectFilePath(int id);
 
 }
